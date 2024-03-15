@@ -1,0 +1,161 @@
+{
+    "name": "Monokai Tooth",
+    "type": "dark",
+    "colors": {
+      "activityBar.background": "#21252B",
+      "activityBar.foreground": "#D7DAE0", 
+      "activityBarBadge.background": "#528bff",
+      "activityBarBadge.foreground": "#F8FAFD",
+      "button.background": "#528bff",
+      "editor.background": "#282828",
+      "editor.foreground": "#FDF4C1",
+      "editor.findMatchBackground": "#42557B",
+      "editor.findMatchHighlightBackground": "#314365",
+      "editor.lineHighlightBackground": "#2B3C44",
+      "editor.selectionBackground": "#1B5C6B",
+      "editorCursor.foreground": "#FDF4C1",
+      "editorGroup.border": "#30434C",
+      "editorGroupHeader.tabsBackground": "#21252B",
+      "editorIndentGuide.background": "#3B4048",
+      "editorLineNumber.foreground": "#928374",
+      "editorWhitespace.foreground": "#504945", 
+      "editorWidget.background": "#21252B",
+      "input.background": "#1d1f23",
+      "list.activeSelectionBackground": "#2c313a",
+      "list.focusBackground": "#383E4A",
+      "list.highlightForeground": "#C5C5C5",
+      "list.hoverBackground": "#292d35",
+      "list.inactiveSelectionBackground": "#30434C",
+      "notifications.background": "#21252b",
+      "sideBar.background": "#21252b",
+      "sideBarSectionHeader.background": "#282c34",
+      "statusBar.background": "#21252B",
+      "statusBar.foreground": "#9da5b4",
+      "statusBarItem.hoverBackground": "#2c313a",
+      "tab.activeBackground": "#1B5C6B",
+      "tab.inactiveBackground": "#21252B",
+      "terminal.ansiBlue": "#528B8B", 
+      "terminal.ansiBrightBlue": "#528bff",
+      "terminal.ansiBrightCyan": "#56b6c2",  
+      "terminal.ansiBrightGreen": "#98c379",
+      "terminal.ansiBrightMagenta": "#c678dd",
+      "terminal.ansiBrightRed": "#fb4934",  
+      "terminal.ansiBrightYellow": "#fabd2f",
+      "terminal.ansiCyan": "#83A598",
+      "terminal.ansiGreen": "#B8BB26",
+      "terminal.ansiMagenta": "#D3869B",    
+      "terminal.ansiRed": "#FB4934",
+      "terminal.ansiYellow": "#FABD2F",
+      "titleBar.activeBackground": "#282c34",
+      "titleBar.activeForeground": "#9da5b4"
+    },
+    "tokenColors": [
+      {
+        "name": "Comment",
+        "scope": ["comment", "string.comment"],
+        "settings": {
+          "foreground": "#7C6F64",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "String",
+        "scope": ["string", "string.template"],
+        "settings": {
+          "foreground": "#528B8B"
+        }
+      },
+      {
+        "name": "Number",
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#D3869B"
+        }
+      },
+      {
+        "name": "Embedded",
+        "scope": ["punctuation.section.embedded", "variable.interpolation"],
+        "settings": { 
+          "foreground": "#FE8019"
+        }
+      },
+      {
+        "name": "Default",
+        "scope": [  
+          "punctuation.separator",
+          "punctuation.accessor"
+        ],
+        "settings": { "foreground": "#FDF4C1" }
+      },
+      {
+        "name": "Keyword",
+        "scope": ["keyword", "storage"],
+        "settings": {
+          "foreground": "#fb4934"
+        }  
+      },
+      {
+        "name": "Keyword Operator",
+        "scope": ["keyword.operator"],
+        "settings": {
+          "foreground": "#fb4934" 
+        }
+      },
+      {
+        "name": "Function",
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "foreground": "#fabd2f"
+        }
+      },
+      {
+        "name": "Function Parameter",
+        "scope": ["variable.parameter"],
+        "settings": {
+          "foreground": "#83A598",
+        }
+      },
+      {
+        "name": "Markup Link",
+        "scope": ["string.detected-link", "markup.underline.link"],    
+        "settings": {
+          "foreground": "#61afef"
+        }
+      },
+      {
+        "name": "Markup Italic",
+        "scope": "markup.italic",
+        "settings": {
+          "fontStyle": "italic"
+        }    
+      },
+      {
+        "name": "Markup Bold",
+        "scope": "markup.bold",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Class",
+        "scope": ["entity.name.class", "entity.name.type.class"],
+        "settings": {
+          "foreground": "#b8bb26"  
+        }
+      },
+      {
+        "name": "Function Name",
+        "scope": ["entity.name.function"],
+        "settings": {        
+          "foreground": "#b8bb26"
+        }
+      },
+      {
+        "name": "Variable",
+        "scope": ["variable"],
+        "settings": {
+          "foreground": "#83a598" 
+        }
+      }
+    ] 
+  }

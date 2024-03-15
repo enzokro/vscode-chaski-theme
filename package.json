@@ -1,0 +1,38 @@
+{
+    "name": "one-kai-tooth",
+    "displayName": "Monokai Tooth",
+    "description": "A cross between the One-Monokai and Darktooth themes.",
+    "version": "0.5.0",
+    "publisher": "cck",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Tooth",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MonokaiTooth-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/enzokro/vscode-monokai-tooth.git"
+    },
+    "bugs": {
+        "url": "https://github.com/enzokro/vscode-monokai-tooth.git/issues"
+    },
+    "homepage": "https://github.com/enzokro/vscode-monokai-tooth.git/blob/master/README.md",
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Monokai Tooth"
+    ],
+    "author": "cck <christopher.kroenke@gmail.com> (http://enzokro.dev)",
+    "license": "Apache-2.0"
+}
