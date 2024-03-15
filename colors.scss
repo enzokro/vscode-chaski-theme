@@ -1,34 +1,73 @@
 // Monokai Tooth Colors
 
-// Default
-$plain: #FDF4C1;
+// Editor
+$editor-background: #282828;
+$editor-foreground: #FDF4C1;
+$editor-selection-background: #1B5C6B;
+$editor-line-highlight-background: #2B3C44;
+$editor-cursor-foreground: #FDF4C1;
 
-// Background  
-$background: #282828;
+// Activity Bar
+$activity-bar-background: #21252B;
+$activity-bar-foreground: #D7DAE0;
+$activity-bar-badge-background: #528bff;
+$activity-bar-badge-foreground: #F8FAFD;
 
-// Caret
-$caret: #528bff;
+// Sidebar
+$sidebar-background: #21252b;
+$sidebar-section-header-background: #282c34;
 
-// Function params
-$pink: #83A598;
+// Status Bar
+$status-bar-background: #21252B;
+$status-bar-foreground: #9da5b4;
+$status-bar-item-hover-background: #2c313a;
 
-// Class name Identifiers 
-$cyan: #b8bb26;
+// Tabs
+$tab-active-background: #1B5C6B;
+$tab-inactive-background: #21252B;
 
-// String
-$lime: #528B8B;
+// Terminal
+$terminal-blue: #61afef;
+$terminal-bright-blue: #528bff;
+$terminal-bright-cyan: #56b6c2;
+$terminal-bright-green: #98c379;
+$terminal-bright-magenta: #c678dd;
+$terminal-bright-red: #fb4934;
+$terminal-bright-yellow: #fabd2f;
+$terminal-cyan: #56b6c2;
+$terminal-green: #98c379;
+$terminal-magenta: #c678dd;
+$terminal-red: #FB4934;
+$terminal-yellow: #d19a66;
 
-// Keywords
-$purple: #fb4934;
+// Title Bar
+$title-bar-active-background: #282c34;
+$title-bar-active-foreground: #9da5b4;
 
-// Numbers, Constants
-$brown: #D3869B;
-
-// Markup attributes  
-$gold: #fabd2f;
-
-// Class name, Namespaces, Function names
-$blue: #b8bb26;
-
-// Comments  
+// Syntax Highlighting
 $comment: #7C6F64;
+$string: #8CD0D3;
+$number: #D3869B;
+$embedded: #c678dd;
+$keyword: #fb4934;
+$types: #c678dd;
+$class: #e5c07b;
+$inherited-class: #98c379;
+$function-name: #E6DB74;
+$function-argument: #D8A657;
+$function-call: #B8BB26;
+$builtin-function: #E6DB74;
+$tag-name: #e06c75;
+$tag-class-id: #FE8019;
+$tag-attribute: #FABD2F;
+$library-constant: #56b6c2;
+$library-class-type: #56b6c2;
+$invalid: #FDF4C1;
+$invalid-deprecated: #FDF4C1;
+$punctuation: #abb2bf;
+$markup-link: #61afef;
+$markup-heading: #e06c75;
+$markup-quote: #98c379;
+$markup-separator: #c678dd;
+$markup-raw: #56b6c2;
+$markup-list: #ffffff;
