@@ -220,14 +220,14 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#F5CE29"
+        "foreground": "#F7D065"
       }
     },
     {
       "name": "Function call",
       "scope": "entity.name.function-call",
       "settings": {
-        "foreground": "#F5CE29"
+        "foreground": "#F7D065"
       }
     },
     {
@@ -237,7 +237,7 @@
         "function.support.core"
       ],
       "settings": {
-        "foreground": "#F5CE29"
+        "foreground": "#F7D065"
       }
     },
     {
@@ -256,7 +256,7 @@
         "punctuation.definition.decorator"
       ],
       "settings": {
-        "foreground": "#F5CE29"
+        "foreground": "#F7D065"
       }
     },
     {
@@ -442,6 +442,17 @@
         "fontStyle": "bold",
         "foreground": "#FFFFFF"
       }
-    }
+    },
+    // {
+    //   "color": "#F7D065", // - A warm, slightly muted yellow with a hint of orange.
+    //   "color": "#F7D065", // - A vibrant, almost golden yellow with an orange undertone.
+    //   "color": "#FFB92E", // - A rich, sunny yellow with a subtle orange influence.
+    //   "color": "#FFAD16", // - A bold, orange-leaning yellow that maintains its distinctiveness.
+    //   "color": "#FFA500", // - The classic "orange" color, a balanced mix of yellow and red.
+    //   "color": "#FF9D00", // - A deep, slightly muted orange-yellow, leaning more towards orange.
+    //   "color": "#FF8C00", // - A vibrant, reddish-orange color, less yellow than the previous options.
+    //   "color": "#FF7F00", // - A strong, orange-dominant color with a hint of yellow.
+    //   "color": "#FF6B00", // - A deep, burnt orange color, moving further away from yellow.
+    // }
   ]
 }
