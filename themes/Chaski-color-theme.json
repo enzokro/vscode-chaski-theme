@@ -45,7 +45,7 @@
     "terminal.ansiGreen": "#98C379",
     "terminal.ansiMagenta": "#C678DD",
     "terminal.ansiRed": "#E06C75",
-    "terminal.ansiYellow": "#D08165",
+    "terminal.ansiYellow": "#D19A66",
     "titleBar.activeBackground": "#282C34",
     "titleBar.activeForeground": "#9DA5B4"
   },
@@ -68,14 +68,14 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#98C379"
+        "foreground": "#8CC9AC"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#D08165"
+        "foreground": "#D0826D"
       }
     },
     {
@@ -176,7 +176,7 @@
         "parameter.variable"
       ],
       "settings": {
-        "foreground": "#D08165",
+        "foreground": "#D19A66",
         "fontStyle": "italic"
       }
     },
@@ -188,7 +188,7 @@
         "meta.function-call.arguments parameter.variable"
       ],
       "settings": {
-        "foreground": "#D08165",
+        "foreground": "#D19A66",
         "fontStyle": "italic"
       }
     },
@@ -220,14 +220,14 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#FF6B00"
+        "foreground": "#F7D065"
       }
     },
     {
       "name": "Function call",
       "scope": "entity.name.function-call",
       "settings": {
-        "foreground": "#F7D065"
+        "foreground": "#FABD2F"
       }
     },
     {
@@ -237,7 +237,7 @@
         "function.support.core"
       ],
       "settings": {
-        "foreground": "#F7D065"
+        "foreground": "#FABD2F"
       }
     },
     {
@@ -256,7 +256,7 @@
         "punctuation.definition.decorator"
       ],
       "settings": {
-        "foreground": "#F7D065"
+        "foreground": "#FABD2F"
       }
     },
     {
@@ -442,17 +442,6 @@
         "fontStyle": "bold",
         "foreground": "#FFFFFF"
       }
-    },
-    // {
-    //   "color": "#F7D065", // - A warm, slightly muted yellow with a hint of orange.
-    //   "color": "#F7D065", // - A vibrant, almost golden yellow with an orange undertone.
-    //   "color": "#FFB92E", // - A rich, sunny yellow with a subtle orange influence.
-    //   "color": "#FFAD16", // - A bold, orange-leaning yellow that maintains its distinctiveness.
-    //   "color": "#FFA500", // - The classic "orange" color, a balanced mix of yellow and red.
-    //   "color": "#FF9D00", // - A deep, slightly muted orange-yellow, leaning more towards orange.
-    //   "color": "#FF8C00", // - A vibrant, reddish-orange color, less yellow than the previous options.
-    //   "color": "#FF7F00", // - A strong, orange-dominant color with a hint of yellow.
-    //   "color": "#FF6B00", // - A deep, burnt orange color, moving further away from yellow.
-    // }
+    }
   ]
 }

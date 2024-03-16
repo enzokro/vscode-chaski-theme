@@ -1,9 +1,9 @@
 {
-    "name": "one-kai-tooth",
-    "displayName": "Monokai Tooth",
-    "description": "A cross between the One-Monokai and Darktooth themes.",
-    "version": "0.12.0",
-    "publisher": "cck",
+    "name": "chaski",
+    "displayName": "Chaski",
+    "description": "A theme inspired by the One Monokai and Darktooth themes.",
+    "version": "0.4.0",
+    "publisher": "Chaski",
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -14,24 +14,24 @@
     "contributes": {
         "themes": [
             {
-                "label": "Monokai Tooth",
+                "label": "Chaski",
                 "uiTheme": "vs-dark",
-                "path": "./themes/MonokaiTooth-color-theme.json"
+                "path": "./themes/Chaski-color-theme.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/enzokro/vscode-monokai-tooth.git"
+        "url": "https://github.com/enzokro/vscode-chaski-theme.git"
     },
     "bugs": {
-        "url": "https://github.com/enzokro/vscode-monokai-tooth.git/issues"
+        "url": "https://github.com/enzokro/vscode-chaski-theme.git/issues"
     },
-    "homepage": "https://github.com/enzokro/vscode-monokai-tooth.git/blob/master/README.md",
+    "homepage": "https://github.com/enzokro/vscode-chaski-theme.git/blob/master/README.md",
     "keywords": [
         "Vscode",
         "Theme",
-        "Monokai Tooth"
+        "Chaski"
     ],
     "author": "cck <christopher.kroenke@gmail.com> (http://enzokro.dev)",
     "license": "Apache-2.0"
