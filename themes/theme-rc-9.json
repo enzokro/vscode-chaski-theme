@@ -143,7 +143,7 @@
           "variable.other.module"
         ],
         "settings": {
-          "foreground": "#A9B1BC"
+          "foreground": "#FDF4C1"
         }
       },
       {
@@ -165,7 +165,7 @@
           "variable.parameter.function.language.special.self"
         ],
         "settings": {
-          "foreground": "#56B1B6"
+          "foreground": "#FDF4C1"
         }
       },
       {
@@ -176,8 +176,20 @@
           "parameter.variable"
         ],
         "settings": {
-          "fontStyle": "italic",
-          "foreground": "#D08165"
+          "foreground": "#D08165",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Keyword argument",
+        "scope": [
+          "meta.function-call.arguments variable.parameter",
+          "meta.function-call.arguments entity.name.variable.parameter",
+          "meta.function-call.arguments parameter.variable"
+        ],
+        "settings": {
+          "foreground": "#D08165",
+          "fontStyle": "italic"
         }
       },
       {
@@ -191,7 +203,6 @@
         ],
         "settings": {
           "foreground": "#FF9566"
-
         }
       },
       {
@@ -328,7 +339,7 @@
           "punctuation.separator.pointer-access"
         ],
         "settings": {
-          "foreground": "#F9A857"
+          "foreground": "#FDF4C1"
         }
       },
       {
@@ -339,19 +350,7 @@
           "punctuation.accessor.function"
         ],
         "settings": {
-          "foreground": "#FCAA4E"
-        }
-      },
-      {
-        "name": "Member Function Arguments",
-        "scope": [
-          "meta.function-call.member variable.parameter",
-          "meta.function-call.member entity.name.variable.parameter",
-          "meta.function-call.member parameter.variable"
-        ],
-        "settings": {
-          "foreground": "#D8A657",
-          "fontStyle": "italic"
+          "foreground": "#FDF4C1"
         }
       },
       {
@@ -361,7 +360,7 @@
           "punctuation.section"
         ],
         "settings": {
-          "foreground": "#A9B1BC"
+          "foreground": "#FDF4C1"
         }
       },
       {

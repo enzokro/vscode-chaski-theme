@@ -165,7 +165,7 @@
           "variable.parameter.function.language.special.self"
         ],
         "settings": {
-          "foreground": "#56B1B6"
+          "foreground": "#A9B1BC"
         }
       },
       {
@@ -173,11 +173,11 @@
         "scope": [
           "variable.parameter",
           "entity.name.variable.parameter",
-          "parameter.variable"
+          "parameter.variable",
+          "meta.function-call.arguments"
         ],
         "settings": {
-          "fontStyle": "italic",
-          "foreground": "#D08165"
+          "foreground": "#A9B1BC"
         }
       },
       {
@@ -191,7 +191,6 @@
         ],
         "settings": {
           "foreground": "#FF9566"
-
         }
       },
       {
@@ -328,7 +327,7 @@
           "punctuation.separator.pointer-access"
         ],
         "settings": {
-          "foreground": "#F9A857"
+          "foreground": "#A9B1BC"
         }
       },
       {
@@ -339,19 +338,7 @@
           "punctuation.accessor.function"
         ],
         "settings": {
-          "foreground": "#FCAA4E"
-        }
-      },
-      {
-        "name": "Member Function Arguments",
-        "scope": [
-          "meta.function-call.member variable.parameter",
-          "meta.function-call.member entity.name.variable.parameter",
-          "meta.function-call.member parameter.variable"
-        ],
-        "settings": {
-          "foreground": "#D8A657",
-          "fontStyle": "italic"
+          "foreground": "#A9B1BC"
         }
       },
       {
