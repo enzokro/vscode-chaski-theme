@@ -2,7 +2,7 @@
     "name": "one-kai-tooth",
     "displayName": "Monokai Tooth",
     "description": "A cross between the One-Monokai and Darktooth themes.",
-    "version": "0.11.0",
+    "version": "0.12.0",
     "publisher": "cck",
     "engines": {
         "vscode": "^1.13.0"
