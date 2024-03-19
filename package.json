@@ -2,7 +2,7 @@
     "name": "chaski",
     "displayName": "Chaski",
     "description": "A theme inspired by the One Monokai and Darktooth themes.",
-    "version": "0.7.0",
+    "version": "1.0.1",
     "publisher": "Chaski",
     "engines": {
         "vscode": "^1.13.0"
@@ -10,7 +10,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "icon.png",
+    "icon": "icon.jpg",
     "contributes": {
         "themes": [
             {
